@@ -1,0 +1,111 @@
+body {
+  background-image: url(img/green_flower.jpg);
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  color: #615c5f;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 30px;
+
+}
+
+.menu {
+  background-color: #b9ffbf;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu__item {
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu__title {
+  margin-left: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #615c5f;
+
+}
+
+.menu__title:hover {
+  color: blue;
+
+  border-bottom: 2px solid blue;
+}
+
+.menu__title:first-child {
+  padding-left: 0;
+}
+
+.container__text {
+  font-size: 25px;
+  background-color: #a5f5b2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 350px;
+  text-align: center;
+  align-items: center;
+}
+
+.contact {
+  /*border-top: 3px solid #4d5251;*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 100px;
+  background-color: white;
+}
+
+.contact__text {
+  font-size: 25px;
+  text-align: center;
+  background-color: #b9ffbf;
+}
+
+.menu__bottom__text {
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+.test__text {
+  line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.test__form {
+  justify-content: center;
+  text-align: center;
+}
+
+.test__ol {
+  text-decoration: none;
+}
+
+.test__ol::marker {
+  display: none;
+}
+
+.test__text {
+  background-color: #a5f5b2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
